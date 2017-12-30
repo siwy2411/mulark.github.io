@@ -11,6 +11,7 @@ var MODIFICATIONS = {
     "0-15-40x": new Modification("Vanilla 0.15.40 - Expensive", "vanilla-0.15.40-expensive.json"),
     "0-16-1": new Modification("Vanilla 0.16.1", "vanilla-0.16.1.json"),
     "0-16-1x": new Modification("Vanilla 0.16.1 - Expensive", "vanilla-0.16.1-expensive.json"),
+    "0-16-7L": new Modification("Vanilla 0.16.1 - Coal Liquefaction", "vanilla-0.16.7-liquefaction.json"),
     //"bobs-0-15-35": new Modification("Bob's Mods + base 0.15.35", "bobs-0.15.35.json")
 }
 
