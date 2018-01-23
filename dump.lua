@@ -130,7 +130,7 @@ function inspect_items(items)
             group=v.group.name,
             subgroup=v.subgroup.name,
             order=v.order,
-            fuel_categories=v.fuel_categories,
+            fuel_category=v.fuel_category,
             module_effects=v.module_effects,
             category=v.category,
             tier=v.tier,
