@@ -108,7 +108,6 @@ function inspect_entities(entities)
             if v.burner_prototype then
                 b = v.burner_prototype
                 entity.burner_prototype = {
-                    --[category=b.category,
                     effectivity=b.effectivity,
                     fuel_category=b.fuel_category,
                     emissions=b.emissions,
