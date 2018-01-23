@@ -109,7 +109,7 @@ function inspect_entities(entities)
                 b = v.burner_prototype
                 entity.burner_prototype = {
                     effectivity=b.effectivity,
-                    fuel_category=b.fuel_category,
+                    fuel_categories=b.fuel_category,
                     emissions=b.emissions,
                 }
             end
