@@ -111,7 +111,7 @@ function renderPrecisions(settings) {
 }
 
 // minimum assembler
-var DEFAULT_MINIMUM = "1"
+var DEFAULT_MINIMUM = "3"
 
 var minimumAssembler = DEFAULT_MINIMUM
 
@@ -184,7 +184,7 @@ var BELTS = [
     new Belt("express-transport-belt", 2400)
 ]
 
-var DEFAULT_BELT = "transport-belt"
+var DEFAULT_BELT = "express-belt"
 
 var preferredBelt = DEFAULT_BELT
 var preferredBeltSpeed = null
