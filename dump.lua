@@ -109,7 +109,7 @@ function inspect_entities(entities)
                 b = v.burner_prototype
                 entity.burner_prototype = {
                     effectivity=b.effectivity,
-                    fuel_categories=b.fuel_category,
+                    fuel_categories=b.fuel_categories,
                     emissions=b.emissions,
                 }
             end
@@ -130,7 +130,7 @@ function inspect_items(items)
             group=v.group.name,
             subgroup=v.subgroup.name,
             order=v.order,
-            fuel_categories=v.fuel_category,
+            fuel_categories=v.fuel_categories,
             module_effects=v.module_effects,
             category=v.category,
             tier=v.tier,
