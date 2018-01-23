@@ -184,7 +184,7 @@ var BELTS = [
     new Belt("express-transport-belt", 2400)
 ]
 
-var DEFAULT_BELT = "express-belt"
+var DEFAULT_BELT = "express-transport-belt"
 
 var preferredBelt = DEFAULT_BELT
 var preferredBeltSpeed = null
